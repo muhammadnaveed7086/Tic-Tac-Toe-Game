@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(75, 25, 53);
+}
+.game {
+  width: 21rem;
+  height: 21rem;
+  background-color: rgb(77, 84, 17);
+  color: white;
+  border-radius: 1rem;
+  box-shadow: darkslategrey;
+  align-items: center;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "box-1 box-2 box-3"
+    "box-4 box-5 box-6"
+    "box-7 box-8 box-9";
+}
+
+.box {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 0.7rem;
+  background-color: rgb(124, 158, 36);
+  color: white;
+  border: none;
+  margin: 0.5rem 0.4rem;
+  text-align: center;
+  font-size: 4rem;
+}
+#reset-btn {
+  padding: 0.5rem;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(98, 75, 4);
+  border: none;
+  border-radius: 1rem;
+  width: 8rem;
+  height: 3.5rem;
+  display: block;
+  text-align: center;
+  margin: 1rem 0rem 0rem 38rem;
+}
+.msg-container {
+  margin: auto;
+  /* border: 2px solid rebeccapurple; */
+  width: 30rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+#new-btn {
+  padding: 0.3rem;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(98, 75, 4);
+  border: none;
+  border-radius: 1rem;
+  width: 8rem;
+  height: 2.5rem;
+  display: block;
+  text-align: center;
+}
+#msg {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  background-color: rgb(76, 52, 52);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+#box-1 {
+  grid-area: box-1;
+}
+
+#box-2 {
+  grid-area: box-2;
+}
+
+#box-3 {
+  grid-area: box-3;
+}
+
+#box-4 {
+  grid-area: box-4;
+}
+
+#box-5 {
+  grid-area: box-5;
+}
+
+#box-6 {
+  grid-area: box-6;
+}
+
+#box-7 {
+  grid-area: box-7;
+}
+
+#box-8 {
+  grid-area: box-8;
+}
+
+#box-9 {
+  grid-area: box-9;
+}
